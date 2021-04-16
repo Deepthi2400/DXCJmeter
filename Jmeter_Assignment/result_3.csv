@@ -1,0 +1,11 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1618572629975,753,ADD,200,OK,Thread Group_1 1-1,text,true,,585,432,1,3,http://www.dneonline.com/calculator.asmx,753,0,444
+1618572631184,300,SUBTRACT,200,OK,Thread Group_1 1-1,text,true,,605,447,1,3,http://www.dneonline.com/calculator.asmx,300,0,0
+1618572631490,313,MULTIPLY,200,OK,Thread Group_1 1-1,text,true,,605,447,1,3,http://www.dneonline.com/calculator.asmx,312,0,0
+1618572631806,297,DIVIDE,200,OK,Thread Group_1 1-1,text,true,,597,442,1,3,http://www.dneonline.com/calculator.asmx,297,0,0
+1618572630272,1978,HTTP Request POST,200,OK,Thread Group_2 2-2,text,true,,387,384,2,2,https://petstore.swagger.io/v2/user,1976,0,1708
+1618572629975,2305,HTTP Request POST,200,OK,Thread Group_2 2-1,text,true,,387,383,2,2,https://petstore.swagger.io/v2/user,2304,0,2025
+1618572632390,273,HTTP Request GETin,200,OK,Thread Group_2 2-2,text,true,,482,199,2,2,https://petstore.swagger.io/v2/user/login?username=varshu&password=1810,272,0,0
+1618572632391,290,HTTP Request GETin,200,OK,Thread Group_2 2-1,text,true,,482,198,2,2,https://petstore.swagger.io/v2/user/login?username=deepu&password=2400,289,0,0
+1618572632664,264,HTTP Request GETout,200,OK,Thread Group_2 2-2,text,true,,381,170,2,2,https://petstore.swagger.io/v2/user/logout,264,0,0
+1618572632682,272,HTTP Request GETout,200,OK,Thread Group_2 2-1,text,true,,381,170,1,1,https://petstore.swagger.io/v2/user/logout,271,0,0
